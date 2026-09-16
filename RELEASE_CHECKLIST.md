@@ -2,7 +2,7 @@
 
 Complete this list before making the repository public.
 
-- [ ] Add the complete six-site dataset, including `Busan_2016_2020_complete.csv`.
+- [x] Add the complete six-site dataset, including `Busan_2016_2020_complete.csv`.
 - [ ] Run `python scripts/validate_data.py` and confirm all six sites pass.
 - [ ] Regenerate `data/checksums.sha256` after the final data files are frozen.
 - [ ] Run the notebook once in smoke mode from a clean kernel.
