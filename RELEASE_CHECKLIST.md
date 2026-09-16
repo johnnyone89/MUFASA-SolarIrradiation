@@ -3,8 +3,8 @@
 Complete this list before making the repository public.
 
 - [x] Add the complete six-site dataset, including `Busan_2016_2020_complete.csv`.
-- [ ] Run `python scripts/validate_data.py` and confirm all six sites pass.
-- [ ] Regenerate `data/checksums.sha256` after the final data files are frozen.
+- [x] Run `python scripts/validate_data.py` and confirm all six sites pass.
+- [x] Regenerate `data/checksums.sha256` after the final data files are frozen.
 - [ ] Run the notebook once in smoke mode from a clean kernel.
 - [ ] Run the full paper configuration from a clean environment.
 - [ ] Confirm that no 2020 observation enters tuning, scaling, seed weighting, or aggregation calibration.
