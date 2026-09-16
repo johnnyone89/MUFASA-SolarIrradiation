@@ -42,7 +42,7 @@ The primary experiment uses a **controlled conditional/oracle-weather protocol**
 ## Repository layout
 
 ```text
-MUFASA-SolarRad/
+repository-root/
 ├── README.md
 ├── RELEASE_CHECKLIST.md
 ├── requirements.txt
