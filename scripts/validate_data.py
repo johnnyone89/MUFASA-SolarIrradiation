@@ -56,7 +56,7 @@ def validate(path: Path) -> dict:
         raise ValueError(f"{path.name}: missing required values found")
 
     if (frame["Solar"] < 0).any():
-        raise ValueError(f"{path.name}: negative solar-radiation values found")
+        raise ValueError(f"{path.name}: negative solar-irradiation values found")
 
     return {
         "site": site_name(path),
